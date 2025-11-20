@@ -1,0 +1,36 @@
+/* Estilos mínimos y responsive adicionales */
+
+/* Mobile-first: base para móviles */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #f8f9fa;
+  color: #212529;
+}
+
+/* Card image heights consistentes */
+.product-card-img {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Acomodar detalle en pantallas pequeñas */
+@media (max-width: 576px) {
+  #product-detail .col-md-5 {
+    height: 220px;
+  }
+  .product-card-img {
+    height: 160px;
+  }
+}
+
+/* Pantallas grandes: imagen más alta */
+@media (min-width: 1024px) {
+  .product-card-img {
+    height: 220px;
+  }
+}
+
+/* Utility to hide/show JS-controlled sections */
+.visually-hidden {
+  display: none !important;
+}
