@@ -17,3 +17,5 @@ Aplicar Bootstrap (grid, utilidades y componentes) para un diseño responsivo.
 Manipular el DOM con JavaScript (eventos y render dinámico).
 
 Versionar correctamente el proyecto con Git/GitHub.
+
+Enlace a repositorio: https://github.com/thomasaravena/ecommerce-frontend-m2
